@@ -9,6 +9,8 @@ La carte des mesures est stockée dans un type `Reseau` à définir par vos soin
 La fonction `consolider_signal`, à écrire par vos soins, doit consolider les mesures de puissance en moyennant les valeurs d'intensité de signal de chaque groupe de quatre mesures adjacentes pour former une seule mesure dans une nouvelle carte.
 La réduction se fait donc de moitié en hauteur et en largeur par rapport à la carte originale, comme le montre l'illustration. Notez qu'au bord du réseau, il est possible que la moyenne utilise moins de 4 mesures.
 
+![Illustration des routeurs](routers.png)
+
 Votre mission consiste donc à déclarer l'alias de type `Reseau` et à définir la fonction `consolider_signal`.
 
 ### Code à compléter
