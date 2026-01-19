@@ -53,7 +53,7 @@ reponse.cpp : à compléter
 <summary>Solution</summary>
 reponse.cpp
 ```cpp
-  using Reseau = std::vector<std::vector<Routeur>>;
+using Reseau = std::vector<std::vector<Routeur>>;
 
 Reseau consoliderSignal(const Reseau& reseau) {
     Reseau nouveauReseau;
