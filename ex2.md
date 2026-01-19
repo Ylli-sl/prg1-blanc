@@ -51,6 +51,7 @@ reponse.cpp : à compléter
 
 <details>
 <summary>Solution</summary>
+    
 reponse.cpp
 ```cpp
 using Reseau = std::vector<std::vector<Routeur>>;
